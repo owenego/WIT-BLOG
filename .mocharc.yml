@@ -1,0 +1,8 @@
+file:
+
+  - ./test/functional/api/blogtest.js
+
+  - ./test/functional/api/categorytest.js
+
+  - ./test/functional/api/usertest.js
+

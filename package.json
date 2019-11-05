@@ -1,0 +1,30 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "set NODE_ENV=test && mocha test/functional/api --timeout 20000 --exit "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.0.2",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "http-errors": "latest",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^6.2.0",
+    "mongodb-memory-server": "^6.0.1",
+    "mongoose": "^5.7.7",
+    "morgan": "^1.9.1",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "cookie-parser": "^1.4.4",
+    "nyc": "^14.1.1"
+  }
+}
